@@ -9,7 +9,7 @@ function on_load() {
 
             ZOHO.CRM.UI.Resize({height: "480px", width: "100%"})
             .then(function(data) {
-                var baseUrl = "https://amplify.plugpv.com/quickdesignnotesembed?debug_mode=true";
+                var baseUrl = "https://amplify.plugpv.com/version-test/quickdesignnotesembed?debug_mode=true";
                 var dynamicUrl = baseUrl + "&type=lead" + "&rec=" + moduleID + "&zohouserid=" + userId;
                 console.log("Dynamic URL: " + dynamicUrl);
                 document.getElementById("zoho-iframe").src = dynamicUrl;
@@ -25,5 +25,6 @@ ZOHO.embeddedApp.init();
 
 
 on_load();
+
 
 
