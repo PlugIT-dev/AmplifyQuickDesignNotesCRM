@@ -23,4 +23,5 @@ function onload() {
 ZOHO.embeddedApp.init();
 }
 
-on_load();
+
+onload();
