@@ -1,4 +1,4 @@
-function onload() {
+function on_load() {
     var userId;
     ZOHO.embeddedApp.on("PageLoad", (entity) => {
         recordtype = "lead";
@@ -24,4 +24,5 @@ ZOHO.embeddedApp.init();
 }
 
 
-onload();
+on_load();
+
